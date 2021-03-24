@@ -1,0 +1,95 @@
+@media screen and (max-width:1000px)
+{
+    body
+    {
+        overflow: hidden;
+    }
+    .nav-left
+    {
+        margin-left: 200px;
+    }
+    .service-content
+    {
+        margin:auto;
+        flex-direction: column;
+        margin-right: 45px;
+     
+    
+    }
+    .services
+    {
+        height: 561px;
+        width: 177%;
+        margin-left: 302px;
+    }
+    .skill
+    {
+        height: 460px;
+    }
+    .skills
+    {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-left: 281px;
+        margin-top: 3px;
+        height: 400px;
+    }
+    .right-skill-content
+    {
+        margin-top: 5px;
+        margin-left: -113px;
+    }
+    .right-skill-content h4
+    {
+        margin-top: 33px;
+        margin-left: 86px;
+
+    }
+    .right-skill-content button
+    {
+        margin-left:97px;
+    }
+    .contact
+    {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-left: 255px;
+        margin-top: 119px;
+        height: 398px;
+    }
+    .form
+    {
+        width: 100%;
+    }
+    .contact-left
+    {
+        margin-left: 0px;
+    }
+    .contact-left h4
+    {
+        text-align: center;
+        margin: 2px 0px;
+    }
+    .center
+    {
+        flex-direction: column;
+        margin-left: 755px;
+        margin-top: 56px;
+    }
+    .detail
+    {
+        margin-top: 5px;
+    }
+    .detail-manage i 
+    {
+        margin-top: 5px;
+    }
+    .manage {
+        margin-top: 5px;
+    }
+    .introduction
+    {
+        margin-left: 515px;
+        margin-top: 280px;
+    }
+}

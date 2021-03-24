@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- icon credit:https://fontawesome.com/icons?d=gallery -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js"></script>
+  <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/responsive.css ')}}">
+  <title>About-TODO</title>
+</head>
+
+<body>
+  {% with messages =get_flashed_messages() %}
+  {% if messages %}
+  <h4 style="background-color: #fff3cd;
+padding: 9px;
+text-align: center;"> Currently this page is not working.Sorry for inconvenience. </h4>
+
+  {% endif %}
+  {%endwith%}
+  <!-- home part start here -->
+  <div class="introduction" id="home">
+    <div class="box">
+      {% set fname ="img/icon.jpg" %}
+      <img src="{{url_for('static',filename=fname)}}" alt="icon">
+    </div>
+    <div>
+      <h1><span id="typed"></span></h1>
+      <div>
+        <p>Hi,I am a student of Computer science Engineering.
+        </p>
+        <p>And My name is Satis Kumar Chaudhary and I am from Nepal.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="hr">
+    <hr>
+  </div>
+  <!-- Services part start here  -->
+  <div class="my-service" id="services">
+    <h1><span><b><i>My Services</i></b> </span></h1>
+  </div>
+  <div class="services">
+    <div class="service-content">
+      <div class="card">
+        <i class="fa fa-paint-brush"></i>
+        <p>Web Design</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quia possimus assumenda aspernatur ea
+          magni
+          odit earum consequuntur ipsum atque!</p>
+      </div>
+      <div class="card">
+        <i class="fa fa-paint-brush"></i>
+        <p>Front-end development</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quia possimus assumenda aspernatur ea
+          magni
+          odit earum consequuntur ipsum atque!</p>
+      </div>
+      <div class="card">
+        <i class="fa fa-code"></i>
+        <p>App Develpement</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quia possimus assumenda aspernatur ea
+          magni
+          odit earum consequuntur ipsum atque!</p>
+      </div>
+    </div>
+  </div>
+  <div class="hr">
+    <hr>
+  </div>
+  <!-- skills part start here  -->
+  <div class="skill" id="skills">
+    <div class="my-service">
+      <h1><span><b><i>Skills</i></b></span></h1>
+    </div>
+    <div class="skills">
+      <div class="right-skill-content">
+        <h4><span><b>My skills & Experience</b></span></h4>
+        <p style="
+        margin-left: 100px;
+        font-family: cursive;
+    
+    ">“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”
+          So be a good programmer.I don't have an any Experience</p>
+        <button class="btn">Read More</button>
+      </div>
+      <div class="left-skill-content">
+        <div class="info">
+          <div class="bar">
+            <span>HTML</span>
+            <span>90%</span>
+          </div>
+        </div>
+        <div class="underline">
+          <div class="underline-html"></div>
+        </div>
+
+        <div class="info">
+          <div class="bar">
+            <span>CSS</span>
+            <span>70%</span>
+          </div>
+        </div>
+        <div class="underline ">
+          <div class="underline-css"></div>
+        </div>
+
+        <div class="info">
+          <div class="bar">
+            <span>JAVASCRIPT</span>
+            <span>50%</span>
+          </div>
+        </div>
+        <div class="underline">
+          <div class="underline-javascript"></div>
+        </div>
+
+        <div class="info">
+          <div class="bar">
+            <span>PYTHON</span>
+            <span>85%</span>
+          </div>
+        </div>
+        <div class="underline">
+          <div class="underline-python"></div>
+        </div>
+
+        <div class="info">
+          <div class="bar">
+            <span>PHP</span>
+            <span>85%</span>
+          </div>
+        </div>
+        <div class="underline">
+          <div class="underline-php"></div>
+        </div>
+        <div class="info">
+          <div class="bar">
+            <span>MYSQL</span>
+            <span>50%</span>
+          </div>
+        </div>
+        <div class="underline">
+          <div class="underline-mysql"></div>
+        </div>
+
+        <div class="info">
+          <div class="bar">
+            <span>JAVA</span>
+            <span>80%</span>
+          </div>
+        </div>
+        <div class="underline">
+          <div class="underline-java"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hr">
+    <hr>
+  </div>
+  <!-- contact part start here -->
+  <div class="contact-title" id="contact">
+    <h1><span><b><i>Contact Me</i></b></span></h1>
+  </div>
+  <div class="contact">
+    <div class="contact-left">
+      <div class="get">
+        <h4><span><b>Get in touch</b></span></h4>
+      </div>
+      <div class="desc">
+        <p style="font-family: cursive;">Let's learn and grow together.Follow me on GitHub.
+        <p><i>username</i>:<b>Satis9815</b></p>
+        </p>
+      </div>
+      <div class="detail">
+        <div class="detail-manage">
+          <i class="fa fa-user"></i>
+          <div class="manage">
+            <h3>Name</h3>
+            <p><b>Satis Kumar Chaudhary</b></p>
+          </div>
+        </div>
+        <div class="detail-manage">
+          <i class="fa fa-map-marker"></i>
+          <div class="manage">
+            <h3>Address</h3>
+            <p><b>Sunsari,Nepal</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-right">
+      <div class="form">
+        <h4><span>Message Me</span></h4>
+        <div class="form-control">
+          <input type="text" name="name" placeholder="Name"><br>
+          <input type="email" name="name" placeholder="example@gmail.com"><br>
+          <input type="text" name="name" placeholder="Subject"><br>
+          <textarea name="desc" class="desc" id="" cols="30" rows="10" placeholder="Elaborate Your Concern"></textarea>
+          <button class="btn" style="font-size: 20px; margin: 2px 2px; padding: 5px;">Send Message </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer start here -->
+  <footer class="footer">
+    <div class="footer-left">
+      <p style="font-family: cursive;">Copyright &copy; 2020 | All rights reserved</p>
+    </div>
+  </footer>
+
+</body>
+<script>
+  var typed = new Typed('#typed', {
+    strings: ["I am a Developer!", "I am a Designer!", "I am a Programmer!", "I am a Gamer!"],
+    backSpeed: 30,
+    backDelay: 900,
+    typeSpeed: 50,
+    loop: true,
+
+  });
+</script>
+
+</html>
